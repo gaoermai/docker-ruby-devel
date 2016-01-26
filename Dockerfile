@@ -42,7 +42,8 @@ RUN apt-get install -y \
     qt4-qmake \
     libsqlite3-dev \
     nodejs \
-    npm
+    npm \
+    git
 
 # some of ruby's build scripts are written in ruby
 # we purge this later to make sure our final image uses what we just built
